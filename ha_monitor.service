@@ -1,0 +1,25 @@
+#sudo nano /etc/systemd/system/ha_monitor.service
+#copy contents of this file
+#save Ctrl-x, y, enter
+
+#start the service and check HA can see it
+#sudo systemctl start ha_monitor.service
+
+#now set the service to start on boot
+#sudo systemctl enable ha_monitor.service
+
+
+[Unit]
+Description=systemmonitor equivalent sensors for remote Home Assistant monitoring
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u ha_monitor.py
+WorkingDirectory=/home/pi/scripts
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
