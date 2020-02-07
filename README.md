@@ -1,5 +1,7 @@
 # ha_monitor
-Using the Home Assistant REST API (https://developers.home-assistant.io/docs/en/external_api_rest.html) to provide a python script that monitors and publishes data similar to the systemmonitor platform in HA.
+Using the Home Assistant REST API (https://developers.home-assistant.io/docs/en/external_api_rest.html) to provide a python script to install on your other Raspberry Pi's that monitors and publishes data similar to the systemmonitor platform back to your HA instance.
+
+Sensors are automatically created once the api is invoked.
 
 The program will update each of four sensors ever minute if they change but will all refresh four sensors every 10 minutes.
 
