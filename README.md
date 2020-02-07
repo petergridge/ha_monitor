@@ -1,7 +1,7 @@
 # ha_monitor
 Using the Home Assistant REST API (https://developers.home-assistant.io/docs/en/external_api_rest.html) to provide a python script that monitors and publishes data similar to the systemmonitor platform in HA.
 
-The program will update each of  four sensors ever minute only if they change but will all refresh four sensors every 10 minutes.
+The program will update each of four sensors ever minute if they change but will all refresh four sensors every 10 minutes.
 
 The sensor format is:
 * sensor.hostname_temperature
