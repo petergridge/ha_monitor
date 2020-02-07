@@ -29,7 +29,7 @@ import psutil
 
 WAIT_TIME = 60 #[s] Time to wait between each refresh
 HAServer = "http://192.168.1.62:8123" #Home assistant server
-AUTHKEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5N2QyMzE4ZTRlOTU0YWMyYTAyODdkOGZlZTk4OWYzMyIsImlhdCI6MTU4MDk0NDkyNiwiZXhwIjoxODk2MzA0OTI2fQ.SbFw6bHDlwTjN0N7xmHsL4d23OVOjIh5pzaH2GeFkt8"
+AUTHKEY = "YOURAUTHKEY.eyJpc3MiOiI5N2QyMzE4ZTRlOTU0YWMyYTAyODdkOGZlZTk4OWYzMyIsImlhdCI6MTU4MDk0NDkyNiwiZXhwIjoxODk2MzA0OTI2fQ.SbFw6bHDlwTjN0N7xmHsL4d23OVOjIh5pzaH2GeFkt8"
 HOSTNAME = socket.gethostname()
 
 lastcpuTemp = 0
