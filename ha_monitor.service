@@ -19,6 +19,7 @@ WorkingDirectory=/home/pi/scripts
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
+RestartSec=300
 User=pi
 
 [Install]
