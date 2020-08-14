@@ -11,6 +11,13 @@ The sensor format is:
 * sensor.hostname_memory_used
 * sensor.hostname_disk_used
 
+Prerequisites:
+* Python3 and includes
+  * sudo apt install python3
+  * sudo apt install python3-pip
+  * sudo pip3 install requests
+  * sudo pip3 install psutil
+
 Two files are provided
 * ha_monitor.py
 * ha_monitor.service
