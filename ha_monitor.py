@@ -31,9 +31,8 @@ WAIT_TIME = 60 #[s] Time to wait between each refresh
 REFRESH_ALL = 600 #[s] time to send all states even if unchanged
 HAServer = "http://192.168.1.62:8123" #Home assistant server
 #ha_monitor long lived token
-AUTHKEY = "YOUR.AUTHKEY.eyJpc3MiOiI4OGY1MDdkNjY0MmE0NTBjYTU1MWFlNzlhZWEyZDY3MiIsImlhdCI6MTU4MTA0OTIwMSwiZXhwIjoxODk2NDA5MjAxfQ.oo1SLDPXH2Nx5pnAkzeGEbdgkZpzqBoHuRU9E3i4ex0"
+AUTHKEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIyYzAwNDE0ZTk0Nzg0MDA0Yjk0MWEzMjE1MWRmZmI4MyIsImlhdCI6MTU5NzMxNjIyNCwiZXhwIjoxOTEyNjc2MjI0fQ.VY5ty_8fS7EDLP-wARLQYYgwv6WWao48N8gpn6VAJ2E"
 HOSTNAME = gethostname()
-
 lastcpuTemp = 0
 lastcpupercent = 0
 lastvirtualmamory = 0
